@@ -29,7 +29,6 @@ import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.WrapsDriver;
 
 import java.io.Serializable;
 import java.util.List;
@@ -91,18 +90,6 @@ public abstract class BySizzle extends By {
         @Override
         public String toString() {
             return "BySizzle.css: [" + selector + "]";
-        }
-        
-        private WebDriver getWebDriver(SearchContext context) {
-            if (context instanceof WebDriver) {
-                return (WebDriver) context;
-            }
-            
-            if (context instanceof WrapsDriver) {
-                return ((WrapsDriver) context).getWrappedDriver();
-            }
-            
-            throw new IllegalStateException("WebDriver instance not found on SearchContext.");
         }
         
         private void injectSizzleIfNeeded(WebDriver driver) {
