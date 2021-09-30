@@ -6,7 +6,7 @@
     
     <groupId>io.slifer</groupId>
     <artifactId>webdriver-sizzle-injector</artifactId>
-    <version>3.141.59-R1</version>
+    <version>4.0.0-rc-1-R1</version>
     <packaging>jar</packaging>
     
     <name>${project.groupId}:${project.artifactId}</name>
@@ -38,7 +38,7 @@
     <properties>
         <java.version>11</java.version>
         
-        <selenium.version>3.141.59</selenium.version>
+        <selenium.version>4.0.0-rc-1</selenium.version>
         <sizzle.version>2.3.4</sizzle.version>
     </properties>
     
