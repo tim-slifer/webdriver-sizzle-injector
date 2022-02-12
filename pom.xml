@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     
-    <groupId>io.slifer</groupId>
+    <groupId>dev.slifer</groupId>
     <artifactId>webdriver-sizzle-injector</artifactId>
     <version>4.0.0-R1</version>
     <packaging>jar</packaging>
@@ -23,9 +23,9 @@
     <developers>
         <developer>
             <name>Tim Slifer</name>
-            <email>oss@slifer.io</email>
-            <organization>slifer.io</organization>
-            <organizationUrl>http://www.slifer.io</organizationUrl>
+            <roles>
+                <role>Project Owner</role>
+            </roles>
         </developer>
     </developers>
     
