@@ -20,7 +20,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
  */
-package io.slifer.sizzlecss;
+package dev.slifer.sizzlecss;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
