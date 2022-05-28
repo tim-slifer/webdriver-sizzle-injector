@@ -13,7 +13,7 @@ On the `pom.xml`, add a new entry to the `<dependencies>` section:
 <dependency>
     <groupId>dev.slifer</groupId>
     <artifactId>webdriver-sizzle-injector</artifactId>
-    <version>4.1.2-R1</version>
+    <version>4.2.0-R1</version>
 </dependency>
 ```
 
