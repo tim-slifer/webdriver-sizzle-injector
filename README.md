@@ -5,6 +5,18 @@ application under test. By using Sizzle CSS Selectors, Automation Testers are ab
 UI elements without having to rely on complex XPath expressions, and more effectively parameterize element locators, 
 resulting in a lowered maintenance overhead for UI modeling.
 
+# Getting started
+
+On the `pom.xml`, add a new entry to the `<dependencies>` section:
+
+```xml
+<dependency>
+    <groupId>dev.slifer</groupId>
+    <artifactId>webdriver-sizzle-injector</artifactId>
+    <version>4.2.0-R1</version>
+</dependency>
+```
+
 # Usage
 
 Invoking a Sizzle CSS Selector is as simple as slightly altering the standard WebDriver call to initialize a WebElement.
