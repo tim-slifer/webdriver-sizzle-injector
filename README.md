@@ -2,7 +2,7 @@
 
 The WebDriver Sizzle Injector enables more robust CSS Selectors by injecting the SizzleJS library onto the DOM of the
 application under test. By using Sizzle CSS Selectors, Automation Testers are able to more precisely locate
-UI elements without having to rely on complex XPath expressions, and more effectively parameterize element locators, 
+UI elements without having to rely on complex XPath expressions, and more effectively parameterize element locators,
 resulting in a lowered maintenance overhead for UI modeling.
 
 # Getting started
@@ -13,7 +13,7 @@ On the `pom.xml`, add a new entry to the `<dependencies>` section:
 <dependency>
     <groupId>dev.slifer</groupId>
     <artifactId>webdriver-sizzle-injector</artifactId>
-    <version>4.2.0-R1</version>
+    <version>4.4.0-R1</version>
 </dependency>
 ```
 
@@ -36,10 +36,10 @@ the SizzleJS library.
 
 # Sizzle CSS Selectors
 
-The [Rosetta Stone](https://www.red-gate.com/simple-talk/dotnet/.net-framework/xpath,-css,-dom-and-selenium-the-rosetta-stone/) 
-wall chart by [Michael Sorens](https://github.com/msorens) is a fantastic reference for the many various structures 
+The [Rosetta Stone](https://www.red-gate.com/simple-talk/dotnet/.net-framework/xpath,-css,-dom-and-selenium-the-rosetta-stone/)
+wall chart by [Michael Sorens](https://github.com/msorens) is a fantastic reference for the many various structures
 available to build both XPath (if that's your cup of tea) and CSS Selectors. This is far more thorough and easy to
-read than anything I can add here. What I found especially handy is how the author has labeled the CSS Selectors that 
+read than anything I can add here. What I found especially handy is how the author has labeled the CSS Selectors that
 are not natively supported by Selenium, but are available via Sizzle.
 
 # Versions
