@@ -38,7 +38,7 @@
     <properties>
         <java.version>11</java.version>
         
-        <selenium.version>4.8.3</selenium.version>
+        <selenium.version>4.9.0</selenium.version>
         <sizzle.version>2.3.4</sizzle.version>
     </properties>
     
