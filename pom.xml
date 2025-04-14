@@ -38,7 +38,7 @@
     <properties>
         <java.version>11</java.version>
         
-        <selenium.version>4.28.1</selenium.version>
+        <selenium.version>4.31.0</selenium.version>
         <sizzle.version>2.3.10</sizzle.version>
     </properties>
     
@@ -61,7 +61,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.13.0</version>
+                <version>3.14.0</version>
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
