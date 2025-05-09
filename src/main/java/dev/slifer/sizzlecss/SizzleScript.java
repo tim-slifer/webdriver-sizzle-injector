@@ -39,7 +39,7 @@ public class SizzleScript {
     private static SizzleScript sizzleInstance;
     private String script;
     
-    private static final String VERSION = "2.3.4";
+    private static final String VERSION = "2.3.10";
     
     private SizzleScript() {
         this.script = loadSizzle();
