@@ -10,10 +10,11 @@ resulting in a lowered maintenance overhead for UI modeling.
 On the `pom.xml`, add a new entry to the `<dependencies>` section:
 
 ```xml
+
 <dependency>
     <groupId>dev.slifer</groupId>
     <artifactId>webdriver-sizzle-injector</artifactId>
-    <version>4.39.0-R1</version>
+    <version>4.45.0-R1</version>
 </dependency>
 ```
 
